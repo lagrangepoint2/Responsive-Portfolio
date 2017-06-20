@@ -1,0 +1,390 @@
+body {
+	background-color: #4aaaa5;
+	background-image: url(../images/weather.png);
+	width: 960px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: auto;
+	color: #777777;
+}
+
+.content {
+	margin: auto;
+}
+
+header {
+	background-color: #fff;
+	width: 100%;
+	height: 90px;
+
+	margin-bottom: 40px;
+
+	border-bottom: 3px;
+	border-style: solid;
+	border-color: #dcdcdc;
+}
+
+.namediv{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #fff;
+	font-size: 42px;
+
+	background-color: #4aaaa5;
+
+	width: 400px;
+	height: 90px;
+	
+	float: left;
+	text-align: center;
+
+	margin: auto;
+}
+
+.namediv h1{
+	padding-top: 5px;
+}
+
+nav {
+	float: right;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 15px 0px 32px 0px;
+}
+
+.mainbody {
+	width: 650px;
+	float: left;
+
+	background-color: #fff;
+	margin-bottom: 40px;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+.mainheader {
+	color: #4aaaa5;
+	font-size: 36px;
+	text-align: left;
+	font-weight: bold;
+
+	padding: 20px;
+
+	border-bottom: 3px;
+	border-style: solid;
+	border-color: #dcdcdc;
+
+	margin-bottom: 10px;
+}
+
+.mainbodymargin {
+	margin: 2%;
+	padding-bottom: 35px;
+}
+
+.sidebar {
+	width: 270px;
+	float: right;
+	margin: auto;
+
+	background-color: #fff;
+	margin-bottom: 40px;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dddddd;
+}
+
+.sidebarheader {
+	color: #4aaaa5;
+	font-size: 20px;
+	text-align: left;
+	font-weight: bold;
+
+	padding: 20px;
+
+	border-bottom: 3px;
+	border-style: solid;
+	border-color: #dcdcdc;
+
+	margin-bottom: 5px;
+
+}
+
+.socialmedia {
+	margin: 2%;
+	display: inline-block;
+	text-align: center;
+	width: 85%;
+}
+
+.socialrs {
+	width: 25%;
+	height: auto;
+
+	text-align: center;
+	display: inline-block;
+
+	margin: auto;
+	padding-left: 10px;
+	margin-right: 5px;
+}
+
+.palbum img {
+	position: relative;
+}
+
+.portstyle {
+	width: 40%;
+	height: auto;
+
+	margin: 5px;
+	padding: 5px;
+}
+
+.fi1 {
+	background-image: url(../images/cats.jpg);
+	width: 256px;
+	height: 192px;
+	background-size: 256px 192px;
+
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+.fi2 {
+	background-image: url(../images/fashion.jpg);
+	width: 256px;
+	height: 192px;
+	background-size: 256px 192px;
+
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+.fi3 {
+	background-image: url(../images/food.jpg);
+	width: 256px;
+	height: 192px;
+	background-size: 256px 192px;
+
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+.fi4 {
+	background-image: url(../images/sports.jpg);
+	width: 256px;
+	height: 192px;
+	background-size: 256px 192px;
+
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+.fi5 {
+	background-image: url(../images/technics.jpg);
+	width: 256px;
+	height: 192px;
+	background-size: 256px 192px;
+
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+.portfoliotitle {
+	background-color: #4aaaa5;
+	color: #fff;
+	text-align: center;
+
+	position: relative;
+	top: 150px;
+}
+
+.mainbodymargin {
+	width: 90%;
+	height: auto;
+
+	margin: auto;
+	padding: auto;
+}
+
+form {
+	margin-top: 15px;
+}
+
+.felement {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	color: #fff;
+	border: none;
+
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h2, h3, h4 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.me {
+	width: 25%;
+	height: auto;
+	float: left;
+
+	margin: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #4aaaa5;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #4aaaa5;
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+	text-align: center;
+
+	width: 100%;
+	height: 90px;
+}
+
+.copyright {
+	padding-top: 45px;
+
+}
+
+/*Media Queries */
+
+/* 980px */
+@media only screen and (max-width: 980px) {
+	body {
+		/*background-color: magenta;*/
+		width: 85%;
+	}
+
+	.mainbody {
+		width: 60%
+	}
+
+	textarea {
+    height: 10em;
+	}
+
+	.socialmedia {
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+
+	.socialrs {
+		width: 20%;
+		float: left;
+	}
+
+	.palbum {
+		width: 100%
+		margin: auto;
+
+		text-align: center;
+	}
+}
+
+/* 768px */
+@media only screen and (max-width: 768px) {
+	body {
+		/*background-color: pink;*/
+	}
+
+	.namediv {
+		width: 35%;
+		font-size: 38px;
+	}
+	
+	.mainbody {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+
+	.sidebar {
+		width: 100%;
+		margin: auto;
+	}
+
+	.socialmedia {
+		float: left;
+		text-align: center;
+	}
+
+	.socialrs {
+		width: 10%;
+		float: left;
+	}	
+
+	.sidebarheader {
+		margin-bottom: 10px;
+		padding: 5px;
+	}
+}
+
+/* 640px */
+@media only screen and (max-width: 640px) {
+	body {
+		/*background-color: yellow;*/
+	}
+
+	header {
+		position: static;
+	}
+	
+	.namediv {
+		width: 100%;
+	}
+
+	.nav {
+		width: 100%;
+	}
+
+	.me {
+		width: 85%;
+	}
+
+}
+
+
+
+
+
+
